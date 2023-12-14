@@ -57,7 +57,6 @@ function generateTableHead(data) {
 generateTableHead(data)
 
 // actually rendering the table
-render()
 function render() {
     const tableStuff = freelancers.map((freelancer) => {
         const row = table.insertRow();
